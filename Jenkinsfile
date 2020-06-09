@@ -4,7 +4,7 @@ pipeline {
 		stage('Init') {
 			steps {
 				echo 'Hi, this is David'
-				echo 'Let's start the test'
+				echo 'Let us start the test'
 			}
 		}
 		stage('Build'){
