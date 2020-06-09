@@ -17,5 +17,10 @@ pipeline {
 				echo 'We are deploying the project'
 			}
 		}
+		stage('Deploy Production'){
+			steps{
+				echo 'Now we are deploying to the production'
+			}
+		}
 	}
 }
